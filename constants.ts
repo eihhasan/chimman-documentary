@@ -9,7 +9,7 @@ export const FEATURES: FeatureSection[] = [
     subtitle: "Remote Area / Documentary",
     description:
       "Went searching for the world's highest post office and found a community living in -20°C with smiles warmer than a chai. Learned that silence has its own language. Raw, frozen, and soul-stirring.",
-    imageUrl: "/hero3.png",
+    imageUrl: "/hero3.PNG",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const FEATURES: FeatureSection[] = [
     subtitle: "Raw Experience / Comedy",
     description:
       "Got lost in the narrow lanes, argued with a cow, and ended up having the best lassi of my life. Found that life is a circle. Emotional, shocking, and funny all at once.",
-    imageUrl: "/hero6.png",
+    imageUrl: "/hero6.PNG",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const FEATURES: FeatureSection[] = [
     subtitle: "Remote / Documentary",
     description:
       "Stayed with a nomadic family under the stars. Found that hospitality isn't about luxury; it's about heart. Learned to live with limited water. Inspiring and eye-opening.",
-    imageUrl: "/hero7.png",
+    imageUrl: "/hero7.PNG",
   },
 ];
 export const FEATURESS: FeatureSection[] = [
@@ -110,12 +110,12 @@ export const TIMELINE_DATA: TimelineCard[] = [
   },
 ];
 export const GALLERY_IMAGES = [
-  "/c1.png",
+  "/c1.PNG",
   "/c4.jpeg",
-  "/c3.png",
-  "/c2.png",
-  "/hero6.png",
-  "/hero7.png",
+  "/c3.PNG",
+  "/c2.PNG",
+  "/hero6.PNG",
+  "/hero7.PNG",
 ];
 
 export const STATS = [
