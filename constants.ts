@@ -51,7 +51,7 @@ export const FEATURESS: FeatureSection[] = [
     subtitle: "Historical / Heritage",
     description:
       "A lesser-known historical monument from the Mughal era. The tomb reflects old architectural style and carries stories of the past silently within its walls. Standing here feels like touching history — quiet, forgotten, yet powerful.",
-    imageUrl: "/public/tomb.jpg",
+    imageUrl: "/tomb.jpg",
   },
   {
     id: 3,
