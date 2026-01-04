@@ -9,7 +9,7 @@ export const FEATURES: FeatureSection[] = [
     subtitle: "Remote Area / Documentary",
     description:
       "Went searching for the world's highest post office and found a community living in -20°C with smiles warmer than a chai. Learned that silence has its own language. Raw, frozen, and soul-stirring.",
-    imageUrl: "/public/hero3.png",
+    imageUrl: "/hero3.png",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const FEATURES: FeatureSection[] = [
     subtitle: "Historical / Storytelling",
     description:
       "Walking through stones that speak. Found hidden carvings that history books missed. Learned that empires fall, but stories remain etched. Feeling: Small, humbled, and totally inspired.",
-    imageUrl: "/public/hero5.jpeg",
+    imageUrl: "/hero5.jpeg",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ export const FEATURES: FeatureSection[] = [
     subtitle: "Raw Experience / Comedy",
     description:
       "Got lost in the narrow lanes, argued with a cow, and ended up having the best lassi of my life. Found that life is a circle. Emotional, shocking, and funny all at once.",
-    imageUrl: "/public/hero6.png",
+    imageUrl: "/hero6.png",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const FEATURES: FeatureSection[] = [
     subtitle: "Remote / Documentary",
     description:
       "Stayed with a nomadic family under the stars. Found that hospitality isn't about luxury; it's about heart. Learned to live with limited water. Inspiring and eye-opening.",
-    imageUrl: "/public/hero7.png",
+    imageUrl: "/hero7.png",
   },
 ];
 export const FEATURESS: FeatureSection[] = [
@@ -43,7 +43,7 @@ export const FEATURESS: FeatureSection[] = [
     subtitle: "Holy Place / Spiritual",
     description:
       "A place of deep peace and devotion. Visiting Dargah-e-Aala Hazrat brings a sense of calm, humility, and spiritual connection. People from across the country come here with faith, prayers, and hope. The atmosphere is soulful, serene, and filled with belief.",
-    imageUrl: "/public/dargah.png",
+    imageUrl: "/dargah.png",
   },
   {
     id: 2,
@@ -59,7 +59,7 @@ export const FEATURESS: FeatureSection[] = [
     subtitle: "Remote / Urban Exploration",
     description:
       "An abandoned industrial site slowly taken over by time and nature. Broken machines, silent halls, and rusted structures create a mysterious vibe. The place feels eerie, raw, and untouched — a reminder of how fast industries rise and fall.",
-    imageUrl: "/public/remote-factory.png",
+    imageUrl: "/remote-factory.png",
   },
   {
     id: 4,
@@ -67,7 +67,7 @@ export const FEATURESS: FeatureSection[] = [
     subtitle: "Wildlife / Nature",
     description:
       "A peaceful zoo set amidst the hills of Nainital. Surrounded by forests and cool mountain air, it offers a calm and educational experience. A perfect place for nature lovers, families, and anyone wanting a slow, refreshing break.",
-    imageUrl: "/public/zoo.png",
+    imageUrl: "/zoo.png",
   },
 ];
 
@@ -110,12 +110,12 @@ export const TIMELINE_DATA: TimelineCard[] = [
   },
 ];
 export const GALLERY_IMAGES = [
-  "/public/c1.png",
-  "/public/c4.jpeg",
-  "/public/c3.png",
-  "/public/c2.png",
-  "/public/hero6.png",
-  "/public/hero7.png",
+  "/c1.png",
+  "/c4.jpeg",
+  "/c3.png",
+  "/c2.png",
+  "/hero6.png",
+  "/hero7.png",
 ];
 
 export const STATS = [
