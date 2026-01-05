@@ -67,10 +67,12 @@ const ScrollStage: React.FC = () => {
           </div>
 
           <div className="mt-8 md:mt-0">
-            <button className="group flex items-center gap-3 bg-white text-black px-8 py-4 rounded-none font-bold transition-all hover:bg-zinc-200 uppercase text-xs tracking-widest">
-              Watch Experiences
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            <a href="https://www.instagram.com/chimman_kontha?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+              <button className="group flex items-center gap-3 bg-white text-black px-8 py-4 rounded-none font-bold transition-all hover:bg-zinc-200 uppercase text-xs tracking-widest">
+                Watch Experiences
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </button>
+            </a>
           </div>
         </div>
 

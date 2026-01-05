@@ -109,6 +109,7 @@ export const TIMELINE_DATA: TimelineCard[] = [
     emotionTag: "😂",
   },
 ];
+// Carousel image
 export const GALLERY_IMAGES = [
   "/c1.PNG",
   "/c4.jpeg",
@@ -117,12 +118,12 @@ export const GALLERY_IMAGES = [
   "/hero6.PNG",
   "/hero7.PNG",
 ];
-
+// States covered
 export const STATS = [
-  { label: "States Covered", value: "5" },
-  { label: "Stories Told", value: "20+" },
-  { label: "Holy Visit", value: "15+" },
-  { label: "Kilometers", value: "10k+" },
+  { label: "States Covered", value: "3" },
+  { label: "Stories Told", value: "30+" },
+  { label: "Holy Visit", value: "10+" },
+  { label: "Kilometers", value: "4.5K+" },
 ];
 
 export const LEARNINGS = [
@@ -145,17 +146,17 @@ export const LEARNINGS = [
 
 export const UPCOMING_JOURNEYS = [
   {
-    destination: "Northeast: The Unseen Seven",
-    date: "OCT 2024",
-    why: "Exploring the living root bridges and the hidden traditions of local tribes.",
+    destination: "UTTARAKHAND",
+    date: "FEB 2026",
+    why: "Uttarakhand trip loading… vlogs coming soon.",
     expect:
-      "Expect raw, green, and deep cultural immersion. Zero filters, just pure jungle vibes.",
+      "Visiting Uttarakhand in February means cold weather, fresh mountain air, and chances of snowfall in higher regions. It’s peaceful, scenic, and perfect for slow exploration.",
   },
   {
-    destination: "The Lost Temples of Odisha",
-    date: "DEC 2024",
-    why: "Ancient architecture that defies modern engineering and local folklore.",
+    destination: "Delhi",
+    date: "March 2026",
+    why: "Delhi trip loading… vlogs coming soon.",
     expect:
-      "History-based storytelling with a touch of mystery. We're going deep into the legends.",
+      "Delhi in March hits different — fog, pollution, and packed streets. AQI is bad, but life in the city never slows down.",
   },
 ];
