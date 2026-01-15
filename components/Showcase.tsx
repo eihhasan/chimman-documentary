@@ -4,14 +4,14 @@ import { FEATURESS } from "../constants";
 
 const Showcase: React.FC = () => {
   return (
-    <section className="bg-black py-32 px-6 md:px-24" id="vlogs">
+    <section className="bg-black py-16 md:py-32 px-6 md:px-24" id="vlogs">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row items-end justify-between mb-24 gap-8">
+        <div className="flex flex-col md:flex-row items-end justify-between mb-12 md:mb-24 gap-8">
           <div className="max-w-2xl">
-            <h2 className="text-white text-5xl md:text-8xl font-black leading-none mb-8">
+            <h2 className="text-white text-4xl md:text-8xl font-black leading-none mb-6 md:mb-8">
               RAW, REAL, & UNFILTERED.
             </h2>
-            <p className="text-zinc-400 text-lg md:text-xl leading-relaxed">
+            <p className="text-zinc-400 text-base md:text-xl leading-relaxed">
               No fake lifestyle, only real experiences. My vlogs are a mix of
               documentary-style storytelling, historical exploration, and the
               inevitable comedy that happens when you travel remote India.
@@ -22,7 +22,7 @@ const Showcase: React.FC = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24">
           {FEATURESS.map((feature, idx) => (
             <motion.div
               key={feature.id}

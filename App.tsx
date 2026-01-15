@@ -40,15 +40,15 @@ const App: React.FC = () => {
       <UpcomingSection />
 
       {/* Footer */}
-      <footer className="bg-black py-24 px-6 md:px-24 border-t border-zinc-900 overflow-hidden relative">
+      <footer className="bg-black py-12 md:py-24 px-6 md:px-24 border-t border-zinc-900 overflow-hidden relative">
         <div className="absolute top-0 right-0 w-96 h-96 bg-zinc-900/10 blur-[150px] -z-10" />
 
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12 relative z-10">
           <div>
-            <h2 className="text-4xl md:text-6xl font-black tracking-tighter mb-4  uppercase">
+            <h2 className="text-3xl md:text-6xl font-black tracking-tighter mb-4 uppercase">
               Follow us and <br /> become family.
             </h2>
-            <p className="text-zinc-500 font-medium max-w-md">
+            <p className="text-zinc-500 font-medium max-w-md text-sm md:text-base">
               You don’t just follow us — you join our family. Every follow gives
               us the confidence and motivation to grow further.
             </p>

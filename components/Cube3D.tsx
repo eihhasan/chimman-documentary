@@ -21,7 +21,7 @@ const Cube3D: React.FC<Cube3DProps> = ({ scrollProgress, features }) => {
 
   return (
     <div
-      className="relative w-64 h-64 md:w-96 md:h-96"
+      className="relative w-64 h-64 md:w-96 md:h-96 max-w-full"
       style={{ perspective: "1200px" }}
     >
       <motion.div

@@ -4,9 +4,9 @@ import { LEARNINGS } from "../constants";
 
 const LearningsSection: React.FC = () => {
   return (
-    <section className="bg-zinc-950 py-32 px-6 md:px-24 border-y border-zinc-900">
+    <section className="bg-zinc-950 py-16 md:py-32 px-6 md:px-24 border-y border-zinc-900">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-white text-4xl md:text-6xl font-black mb-20 uppercase  tracking-tighter">
+        <h2 className="text-white text-4xl md:text-6xl font-black mb-12 md:mb-20 uppercase tracking-tighter">
           Learnings & <br /> Realities.
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">

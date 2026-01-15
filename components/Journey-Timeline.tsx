@@ -19,8 +19,8 @@ const JourneyTimeline: React.FC = () => {
       style={{ height: containerHeight }}
     >
       {/* Fixed heading */}
-      <div className="fixed top-24 left-10 md:left-24 z-50 pointer-events-none">
-        <h2 className="text-white text-5xl md:text-8xl font-black uppercase tracking-tighter italic leading-none">
+      <div className="fixed top-16 md:top-24 left-6 md:left-24 z-50 pointer-events-none">
+        <h2 className="text-white text-4xl md:text-8xl font-black uppercase tracking-tighter italic leading-none">
           Journey <br /> Archive
         </h2>
         <div className="flex items-center gap-4 mt-4">

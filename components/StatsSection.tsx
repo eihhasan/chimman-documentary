@@ -5,10 +5,10 @@ import { STATS } from '../constants';
 
 const StatsSection: React.FC = () => {
   return (
-    <section className="bg-black py-40 border-y border-zinc-900">
+    <section className="bg-black py-20 md:py-40 border-y border-zinc-900">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12">
         {STATS.map((stat, i) => (
-          <motion.div 
+          <motion.div
             key={i}
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -17,7 +17,7 @@ const StatsSection: React.FC = () => {
             className="flex flex-col items-center text-center space-y-4"
           >
             <div className="relative">
-              <span className="text-6xl md:text-8xl font-black text-white tracking-tighter">
+              <span className="text-5xl md:text-8xl font-black text-white tracking-tighter">
                 {stat.value}
               </span>
               <div className="absolute -top-4 -right-4 w-12 h-px bg-white/20 rotate-45" />

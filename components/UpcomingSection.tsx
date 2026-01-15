@@ -5,10 +5,10 @@ import { MapPin, Calendar } from "lucide-react";
 
 const UpcomingSection: React.FC = () => {
   return (
-    <section className="bg-black py-32 px-6 md:px-24">
+    <section className="bg-black py-16 md:py-32 px-6 md:px-24">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16">
-          <h2 className="text-white text-4xl md:text-6xl font-black uppercase tracking-tighter ">
+          <h2 className="text-white text-3xl md:text-6xl font-black uppercase tracking-tighter ">
             Next Destination.
           </h2>
           <span className="text-zinc-600 font-mono text-xs mt-4 md:mt-0">
@@ -23,7 +23,7 @@ const UpcomingSection: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex flex-col md:flex-row gap-8 p-10 border border-zinc-800 bg-zinc-900/20 items-start md:items-center hover:border-white transition-colors cursor-pointer group"
+              className="flex flex-col md:flex-row gap-8 p-6 md:p-10 border border-zinc-800 bg-zinc-900/20 items-start md:items-center hover:border-white transition-colors cursor-pointer group"
             >
               <div className="flex-1">
                 <div className="flex items-center gap-4 mb-4">

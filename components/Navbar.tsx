@@ -5,10 +5,10 @@ import { BRAND_NAME } from '../constants';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full z-[100] p-6 md:p-10 flex items-center justify-between mix-blend-difference">
-      <div className="flex items-center gap-3">
-        <Compass className="w-6 h-6 text-white" />
-        <span className="text-white font-black tracking-[-0.05em] text-2xl hidden md:block">
+    <nav className="fixed top-0 left-0 w-full z-[100] p-4 md:p-10 flex items-center justify-between mix-blend-difference">
+      <div className="flex items-center gap-2 md:gap-3">
+        <Compass className="w-5 h-5 md:w-6 md:h-6 text-white" />
+        <span className="text-white font-black tracking-[-0.05em] text-xl md:text-2xl hidden md:block">
           {BRAND_NAME}
         </span>
       </div>

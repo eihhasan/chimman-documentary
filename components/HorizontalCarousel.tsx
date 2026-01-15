@@ -27,12 +27,12 @@ const HorizontalCarousel: React.FC = () => {
 
         <motion.div
           style={{ x }}
-          className="flex gap-16 px-10 md:px-24 relative z-10"
+          className="flex gap-8 md:gap-16 px-6 md:px-24 relative z-10"
         >
           {GALLERY_IMAGES.map((src, i) => (
             <div
               key={i}
-              className="group relative h-[350px] w-[280px] md:h-[550px] md:w-[400px] flex-shrink-0 overflow-hidden rounded-none bg-zinc-900 border border-zinc-800 shadow-2xl"
+              className="group relative h-[350px] w-[75vw] md:h-[550px] md:w-[400px] flex-shrink-0 overflow-hidden rounded-none bg-zinc-900 border border-zinc-800 shadow-2xl"
             >
               <img
                 src={src}
