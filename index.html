@@ -1,51 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Explore with Hassan, Chimman Documentaries.</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        font-family: "Inter", sans-serif;
-        background-color: #000;
-        color: #fff;
-        margin: 0;
-        overflow-x: hidden;
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== Primary SEO Meta Tags ===== -->
+  <title>Chimman Documentary | Documentary Creator from Uttar Pradesh, India</title>
+  <meta name="description"
+    content="Chimman Documentary — A storytelling and documentary platform exploring real-life stories, places, culture, street life, and people across Uttar Pradesh and India. Follow the journey on Instagram." />
+  <meta name="keywords"
+    content="Chimman Documentary, Documentary Creator India, Instagram Documentary Creator, Travel Documentary India, Uttar Pradesh Stories, Street Culture Documentary, Indian Vlogger, Real Life Stories India, Hassan Raza Documentary, chimman_kontha" />
+  <meta name="author" content="Chimman Documentary" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="canonical" href="https://chimman-documentary.vercel.app/" />
+
+  <!-- ===== Geo / Location Tags ===== -->
+  <meta name="geo.region" content="IN-UP" />
+  <meta name="geo.placename" content="Uttar Pradesh, India" />
+  <meta name="language" content="English" />
+
+  <!-- ===== Open Graph (Facebook / WhatsApp / LinkedIn) ===== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Chimman Documentary" />
+  <meta property="og:title" content="Chimman Documentary | Documentary Creator from Uttar Pradesh, India" />
+  <meta property="og:description"
+    content="Real-life stories, documentary-style videos, travel explorations, and vlog content capturing authentic moments from cities and villages across Uttar Pradesh and India." />
+  <meta property="og:url" content="https://chimman-documentary.vercel.app/" />
+  <meta property="og:image" content="https://chimman-documentary.vercel.app/hero3.PNG" />
+  <meta property="og:image:alt" content="Chimman Documentary – Documentary Creator from Uttar Pradesh, India" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chimman Documentary | Documentary Creator from Uttar Pradesh, India" />
+  <meta name="twitter:description"
+    content="Real-life stories, documentary-style videos, travel explorations, and vlog content capturing authentic moments from Uttar Pradesh and India." />
+  <meta name="twitter:image" content="https://chimman-documentary.vercel.app/hero3.PNG" />
+  <meta name="twitter:image:alt" content="Chimman Documentary – Exploring India Through Real Stories" />
+
+  <!-- ===== JSON-LD Structured Data: Person / ContentCreator ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Chimman Documentary",
+    "alternateName": "chimman_kontha",
+    "description": "Chimman Documentary is a storytelling and documentary platform exploring real-life stories, places, culture, people, and street life across Uttar Pradesh and India. Documentary-style videos, travel explorations, and authentic vlog content.",
+    "url": "https://chimman-documentary.vercel.app/",
+    "image": "https://chimman-documentary.vercel.app/hero3.PNG",
+    "jobTitle": "Documentary Creator & Instagram Content Creator",
+    "nationality": {
+      "@type": "Country",
+      "name": "India"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Uttar Pradesh",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://www.instagram.com/chimman_kontha"
+    ],
+    "knowsAbout": [
+      "Documentary Filmmaking",
+      "Travel Vlogging",
+      "Street Photography",
+      "Cultural Storytelling",
+      "Uttar Pradesh Culture",
+      "Indian Heritage",
+      "Real Life Stories"
+    ],
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Documentary Creator",
+      "occupationLocation": {
+        "@type": "City",
+        "name": "Uttar Pradesh, India"
       }
-      ::-webkit-scrollbar {
-        width: 8px;
+    }
+  }
+  </script>
+
+  <!-- ===== WebSite Schema for Sitelinks Search Box ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Chimman Documentary",
+    "url": "https://chimman-documentary.vercel.app/",
+    "description": "Documentary creator from Uttar Pradesh, India — exploring real stories, travel, culture, and street life.",
+    "inLanguage": "en-IN",
+    "publisher": {
+      "@type": "Person",
+      "name": "Chimman Documentary"
+    }
+  }
+  </script>
+
+  <!-- ===== Performance: Font Preconnect ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
+
+  <!-- ===== Tailwind (existing) ===== -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      overflow-x: hidden;
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #000;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #333;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "framer-motion": "https://esm.sh/framer-motion@^12.23.26",
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react": "https://esm.sh/react@^19.2.3"
       }
-      ::-webkit-scrollbar-track {
-        background: #000;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #333;
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #555;
-      }
-    </style>
-    <script type="importmap">
-      {
-        "imports": {
-          "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
-          "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-          "framer-motion": "https://esm.sh/framer-motion@^12.23.26",
-          "react/": "https://esm.sh/react@^19.2.3/",
-          "react": "https://esm.sh/react@^19.2.3"
-        }
-      }
-    </script>
-    <link rel="stylesheet" href="/index.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
-  </body>
+    }
+  </script>
+  <link rel="stylesheet" href="/index.css" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
 </html>

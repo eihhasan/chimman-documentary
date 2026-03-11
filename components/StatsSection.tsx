@@ -1,11 +1,11 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { STATS } from '../constants';
 
 const StatsSection: React.FC = () => {
   return (
-    <section className="bg-black py-20 md:py-40 border-y border-zinc-900">
+    <section className="bg-black py-20 md:py-40 border-y border-zinc-900" aria-label="Journey Statistics">
+      <h2 className="sr-only">Travel and Documentary Statistics</h2>
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12">
         {STATS.map((stat, i) => (
           <motion.div
@@ -20,7 +20,7 @@ const StatsSection: React.FC = () => {
               <span className="text-5xl md:text-8xl font-black text-white tracking-tighter">
                 {stat.value}
               </span>
-              <div className="absolute -top-4 -right-4 w-12 h-px bg-white/20 rotate-45" />
+              <div className="absolute -top-4 -right-4 w-12 h-px bg-white/20 rotate-45" aria-hidden="true" />
             </div>
             <span className="text-[10px] text-zinc-500 font-black uppercase tracking-[0.5em]">
               {stat.label}

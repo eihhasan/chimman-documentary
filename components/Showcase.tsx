@@ -4,7 +4,7 @@ import { FEATURESS } from "../constants";
 
 const Showcase: React.FC = () => {
   return (
-    <section className="bg-black py-16 md:py-32 px-6 md:px-24" id="vlogs">
+    <section className="bg-black py-16 md:py-32 px-6 md:px-24" id="vlogs" aria-label="Chimman Documentary Past Vlogs">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-end justify-between mb-12 md:mb-24 gap-8">
           <div className="max-w-2xl">
@@ -35,8 +35,9 @@ const Showcase: React.FC = () => {
               <div className="aspect-video overflow-hidden bg-zinc-900 mb-8 rounded-lg">
                 <img
                   src={feature.imageUrl}
-                  alt={feature.title}
+                  alt={`Documentary exploration at ${feature.title} - ${feature.subtitle}`}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100"
+                  loading="lazy"
                 />
               </div>
               <div className="border-l-2 border-white pl-6">

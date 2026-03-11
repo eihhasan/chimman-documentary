@@ -13,16 +13,17 @@ const HorizontalCarousel: React.FC = () => {
   const titleOpacity = useTransform(scrollYProgress, [0, 0.1], [1, 0.2]);
 
   return (
-    <section ref={targetRef} className="relative h-[400vh] bg-zinc-950">
+    <section ref={targetRef} className="relative h-[400vh] bg-zinc-950" aria-label="Visual Records Gallery">
       <div className="sticky top-0 h-screen flex items-center overflow-hidden">
         {/* Background Title - Pushed back and dimmed */}
         <motion.div
           style={{ opacity: titleOpacity }}
           className="absolute top-24 left-10 md:left-24 z-0 pointer-events-none"
+          aria-hidden="true"
         >
-          <h2 className="text-white text-[10vw] md:text-[15vw] font-black tracking-tighter opacity-10 leading-none uppercase italic">
+          <span className="text-white text-[10vw] md:text-[15vw] font-black tracking-tighter opacity-10 leading-none uppercase italic block">
             Visual <br /> Records
-          </h2>
+          </span>
         </motion.div>
 
         <motion.div
@@ -36,16 +37,17 @@ const HorizontalCarousel: React.FC = () => {
             >
               <img
                 src={src}
-                alt={`Archive ${i}`}
+                alt={`Chimman Documentary Visual Record ${i + 1} - Exploring India and Uttar Pradesh`}
                 className="h-full w-full object-cover  transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-10">
                 <span className="text-[10px] text-zinc-400 font-black uppercase tracking-[0.4em] mb-3">
                   CAPTURE_0{i + 1}
                 </span>
-                <h4 className="text-white font-black text-3xl uppercase italic leading-none tracking-tighter">
+                <span className="text-white font-black text-3xl uppercase italic leading-none tracking-tighter block">
                   Unfiltered <br /> Perspective
-                </h4>
+                </span>
                 <div className="mt-6 w-12 h-1 bg-white" />
               </div>
             </div>

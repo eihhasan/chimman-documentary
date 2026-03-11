@@ -4,14 +4,14 @@ import { LEARNINGS } from "../constants";
 
 const LearningsSection: React.FC = () => {
   return (
-    <section className="bg-zinc-950 py-16 md:py-32 px-6 md:px-24 border-y border-zinc-900">
+    <section className="bg-zinc-950 py-16 md:py-32 px-6 md:px-24 border-y border-zinc-900" aria-label="Travel Learnings & Realities">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-white text-4xl md:text-6xl font-black mb-12 md:mb-20 uppercase tracking-tighter">
           Learnings & <br /> Realities.
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {LEARNINGS.map((item, i) => (
-            <motion.div
+            <motion.article
               key={i}
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -28,7 +28,7 @@ const LearningsSection: React.FC = () => {
               <p className="text-zinc-400 text-sm leading-relaxed">
                 {item.content}
               </p>
-            </motion.div>
+            </motion.article>
           ))}
         </div>
       </div>
