@@ -57,9 +57,12 @@ const ConnectPromotions: React.FC = () => {
                         <p className="text-zinc-500 text-sm font-medium mb-8 max-w-[250px]">
                             For paid promotions, brand deals, and collaborations contact me.
                         </p>
-                        <button className="w-3/4 py-4 bg-white text-black font-black uppercase tracking-widest text-[10px] rounded-none hover:bg-zinc-200 transition-all focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black">
+                        <a 
+                            href="tel:+917599201952"
+                            className="w-3/4 py-4 bg-white text-black font-black uppercase tracking-widest text-[10px] rounded-none hover:bg-zinc-200 transition-all focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black flex justify-center items-center"
+                        >
                             Work With Me
-                        </button>
+                        </a>
                     </motion.div>
 
                     {/* Contact Email Area - TRIANGLE */}
@@ -90,7 +93,7 @@ const ConnectPromotions: React.FC = () => {
                                 aria-label="Email hassan.raza.vlogs@gmail.com"
                                 className="text-sm md:text-base font-bold hover:text-zinc-400 transition-colors break-all px-4 focus:outline-none focus:text-zinc-400"
                             >
-                                hassan.raza.vlogs@gmail.com
+                                razahassansaifi2@gmail.com
                             </a>
                         </div>
                     </motion.div>
